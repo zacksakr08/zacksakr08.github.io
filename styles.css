@@ -1,0 +1,353 @@
+body {
+    background-color: #f7f3ee;
+    color: #1a1410;
+    font-family: Georgia, serif;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+}
+
+
+a {
+    color: #b04a2f;
+}
+
+a:hover {
+    color: #c9a84c;
+}
+
+
+.navbar {
+    background-color: #1a1410 !important;
+    border-bottom: 3px solid #c9a84c;
+}
+
+.navbar-brand {
+    color: #c9a84c !important;
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+}
+
+.nav-link {
+    color: #e8e0d5 !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.07em;
+    margin-left: 1rem;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #c9a84c !important;
+}
+
+
+#hero {
+    background-color: #1a1410;
+    color: #f7f3ee;
+    text-align: center;
+    padding: 6rem 1rem;
+    border-bottom: 3px solid #c9a84c;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    color: #c9a84c;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #e8e0d5;
+    margin-bottom: 2rem;
+}
+
+
+.btn-gold {
+    background-color: #c9a84c;
+    color: #1a1410;
+    font-weight: bold;
+    padding: 0.7rem 2rem;
+    border: 2px solid #c9a84c;
+    border-radius: 0;
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-gold:hover {
+    background-color: transparent;
+    color: #c9a84c;
+}
+
+
+.card-box {
+    background-color: #ffffff;
+    border: 1px solid #e8e0d5;
+    border-bottom: 3px solid #c9a84c;
+    padding: 2rem;
+    width: 100%;
+}
+
+.card-box h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+}
+
+
+#quote-section {
+    background-color: #1a1410;
+    color: #f7f3ee;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+#quote-section blockquote {
+    font-style: italic;
+    font-size: 1.8rem;
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+#quote-section blockquote footer {
+    font-size: 0.9rem;
+    color: #c9a84c;
+    margin-top: 1rem;
+    font-style: normal;
+}
+
+/* --- .page-header: class selector for inner page headers --- */
+.page-header {
+    background-color: #1a1410;
+    color: #f7f3ee;
+    text-align: center;
+    padding: 4rem 1rem 3rem;
+    border-bottom: 3px solid #c9a84c;
+}
+
+.page-header h1 {
+    color: #c9a84c;
+}
+
+.page-header p {
+    color: #e8e0d5;
+    font-size: 1.1rem;
+}
+
+/* --- .container: from CS50 CSS lesson — width 80%, margin auto to center --- */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* --- #landmark-img: ID selector to size the landmark image --- */
+#landmark-img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    border: 3px solid #c9a84c;
+}
+
+/* --- .location-text: class selector for location labels --- */
+.location-text {
+    color: #8c7b6b;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+/* --- Accordion overrides --- */
+.accordion-button:not(.collapsed) {
+    background-color: #1a1410;
+    color: #c9a84c;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* --- .facts-section: class selector for fact lists --- */
+.facts-section {
+    background-color: #ffffff;
+    border: 1px solid #e8e0d5;
+    border-left: 4px solid #c9a84c;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.facts-section ul {
+    padding-left: 1.25rem;
+}
+
+.facts-section li {
+    margin-bottom: 0.5rem;
+}
+
+/* --- .gallery-heading: class selector --- */
+.gallery-heading {
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+
+.gallery-img {
+    width: 100%;
+    border: 2px solid #e8e0d5;
+}
+
+
+.img-placeholder {
+    background-color: #e8e0d5;
+    border: 2px dashed #8c7b6b;
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #8c7b6b;
+    font-size: 0.95rem;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.essay-wrap {
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+
+.byline {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.byline-sub {
+    text-align: center;
+    color: #8c7b6b;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+
+#essay-rule,
+#essay-rule-bottom {
+    border: none;
+    border-top: 2px solid #c9a84c;
+    width: 80px;
+    margin: 1.5rem auto;
+}
+
+
+figure {
+    margin: 2rem 0;
+}
+
+
+#essay-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #8c7b6b;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+
+.essay-quote {
+    border-left: 4px solid #c9a84c;
+    padding: 1rem 1.5rem;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #8c7b6b;
+    background-color: rgba(201, 168, 76, 0.07);
+    margin: 2rem 0;
+}
+
+.essay-quote footer {
+    font-size: 0.85rem;
+    color: #1a1410;
+    font-style: normal;
+    margin-top: 0.5rem;
+}
+
+
+#profile-photo {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border: 3px solid #c9a84c;
+    display: block;
+    margin: auto;
+}
+
+
+#my-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+
+.my-badge {
+    background-color: #e8e0d5;
+    color: #1a1410;
+    font-size: 0.8rem;
+    margin: 0.2rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 0;
+    letter-spacing: 0.04em;
+}
+
+footer {
+    background-color: #1a1410;
+    color: #8c7b6b;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.85rem;
+    border-top: 2px solid #c9a84c;
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .essay-wrap {
+        width: 95%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    #profile-photo {
+        width: 180px;
+        height: 180px;
+    }
+}
